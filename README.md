@@ -44,3 +44,28 @@ for(int i = 1; i < 6; i++)
 ## Objects
 - { name: value, name: value }  Curly braces, name, colon, value, comma.
 - Like a C# Object, except no class was ever written.
+
+
+
+## The DOM
+- DOM = Document Object Model
+- index.html is the instructions. The DOM is what the browser BUILT from those instructions.
+- Every element is an Object.
+
+
+
+## getElementById and textContent
+- document is the whole page as an object.
+- document.getElementById("some-id) gets one Element, by it's Id attribute.
+- .textContent read the text inside. Assigning to it changes the text on the page.
+
+
+
+## classList
+- element.classList.add("closed") puts a class on element.
+- element.classList.remove("closed") takes it off.
+
+
+## createElement and appendChild
+- document.createElement("li") makes an element. It is not on the page yet.
+- parent.appendChild(child) puts it on the page, as the last child.
